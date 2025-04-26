@@ -73,4 +73,10 @@ public class UIMainScene : MonoBehaviour
             InfoPopup.Name.text = content.GetName();
         }
     }
+
+    // Code used to return back to menu from main scene (Challenge of this part?)
+    public void BackToMenu()
+    {
+        SceneManager.LoadScene(0);
+    }
 }
